@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * Plugin Name:       AJDWP-user-profile
  * Plugin URI:        https://github.com/arash12javadi/
  * Description:       This plugin seamlessly installs the "User Profile" and "Password Reset" pages, complete with the embedded shortcodes ([pl_AJDWP_register_form] & [pl_password_reset_form]). Simply add the pages to your theme menu effortlessly. All codes operate through AJAX. The password reset functionality is automated directly from the live WordPress site (not on a localhost website). Users receive a password reset notification with a link to reset their password, eliminating the need for the standard WordPress password reset. Enjoy the convenience!
- * Version:           1
+ * Version:           240201
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Arash Javadi
