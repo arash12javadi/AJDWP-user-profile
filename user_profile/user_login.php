@@ -54,9 +54,9 @@ if (!defined('ABSPATH')) {
 					var jsonResponse = JSON.parse(response);
 
 					if (jsonResponse.status == 'error') {
-						$('#ql_err_msg').html(jsonResponse.message).addClass('alert alert-danger');   
+						$('#page_ql_err_msg').html(jsonResponse.message).addClass('alert alert-danger');   
 					} else {
-						$('#ql_err_msg').html(jsonResponse.message).addClass('alert alert-success');
+						$('#page_ql_err_msg').html(jsonResponse.message).addClass('alert alert-success');
 
 						// Check if the user ID is available in the response
 						var redirect_url = jsonResponse.redirect_url;
