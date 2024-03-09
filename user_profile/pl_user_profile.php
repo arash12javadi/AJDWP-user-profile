@@ -61,6 +61,11 @@ function pl_AJDWP_registration_form() {
 
                 <?php echo $user_login_data; ?>
             
+                <style>
+                    button.open-button {
+                        display: none !important;
+                    }
+                </style>
             </div>
 
             <!-- -------------------------------- User Register Tab ------------------------------------- -->
